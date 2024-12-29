@@ -1,5 +1,5 @@
 from random import randint
-# ghdndlakfnkn
+# 
 welcome_text = 'угадайте число от 1 до 100
 
 number = randint(1, 100)
@@ -13,6 +13,7 @@ def main():
             print('Ваше число меньше того, что загадано')
         elif guess > number:
             print('Ваше число больше того, что загадано')
+        elif guess == number:
             break
 
 main()
