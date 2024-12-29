@@ -1,6 +1,6 @@
 from random import randint
 # 
-welcome_text = 'угадайте число от 1 до 100
+welcome_text = 'угадайте число от 1 до 100'
 
 number = randint(1, 100)
 
