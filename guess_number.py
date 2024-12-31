@@ -1,10 +1,11 @@
 from random import randint
-# 
+
 welcome_text = 'угадайте число от 1 до 100'
 
 number = randint(1, 100)
 
 print(welcome_text)
+
 
 def main():
     while True:
@@ -16,8 +17,7 @@ def main():
         elif guess == number:
             break
 
+
 main()
 
 print('Отличная интуиция! Вы угадали число :)')
-        
- 
